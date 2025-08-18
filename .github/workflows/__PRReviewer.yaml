@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: AidentErfurt/bc-reviewer@main
+      - uses: AidentErfurt/bc-ai-reviewer@main
         with:
           GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
 
